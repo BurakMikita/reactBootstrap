@@ -1,0 +1,61 @@
+
+
+.Jambo {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;
+    background: url("https://fullhdoboi.ru/wp-content/uploads/_ph/6/45828042.jpg") no-repeat fixed bottom;
+    background-size: cover;
+    color: #efefef;
+    height: 400px;
+    position: relative;
+    z-index: -2;
+
+}
+
+
+.overlay {
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.imgTwo {
+    height: 600px;
+}
+
+@media (max-width: 1200px) {
+    .img {
+        height: 270px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+    .imgTwo {
+        height: 410px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .imgTwo {
+        height: 320px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .img {
+        height: 225px;
+    }
+    .imgTwo {
+        height: 200px;
+    }
+
+}
